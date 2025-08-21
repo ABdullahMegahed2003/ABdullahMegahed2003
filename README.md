@@ -1,40 +1,50 @@
-# Project Name
+<h1 align="center">🌐 Front-End Portfolio Website</h1>
 
-## 📌 Description
-A brief description of what this project does and who it's for.
+<p align="center">
+  A sleek and responsive website built with modern front-end technologies including <strong>Tailwind CSS</strong>, <strong>React.js</strong>, and custom animations.
+</p>
 
-## 🚀 Demo
-[Live Demo](https://your-live-demo-link.com)
+<p align="center">
+  <a href="https://your-live-demo-link.com" target="_blank">
+    🔗 <strong>Live Demo</strong>
+  </a>
+</p>
 
-## 🖼️ Screenshots
-![Screenshot](link-to-screenshot)
+---
 
-## 🔧 Features
-- Feature 1
-- Feature 2
-- Feature 3
+## 🎨 Built With
 
-## 🛠️ Technologies Used
-- HTML
-- CSS / Tailwind CSS / Bootstrap
-- JavaScript
-- React.js
-- Animation Libraries: Animate.css, WOW.js, AOS
+<p align="center">
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=fff" />
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=fff" />
+  <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" />
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
+  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
+</p>
 
-## 🧠 Lessons Learned
-What you learned while building this project.
+---
 
-## 📁 Installation
+## ✨ Features
+
+- ⚡ Fast and responsive UI with Tailwind CSS utility classes
+- 🎨 Custom styling with Tailwind theming
+- 🎞️ Smooth animations using AOS, Animate.css & WOW.js
+- 🌓 Light & dark mode support
+- 🧩 Clean, modular React components
+
+---
+
+## 🛠️ Installation
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/your-repo.git
+git clone https://github.com/yourusername/your-project.git
 
-# Go into the folder
-cd your-repo
+# Navigate into the project directory
+cd your-project
 
-# Install dependencies (if any)
+# Install dependencies
 npm install
 
-# Start the project
-npm start
+# Start the development server
+npm run dev
