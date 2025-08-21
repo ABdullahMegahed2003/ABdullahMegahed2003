@@ -4,11 +4,7 @@
   A sleek and responsive website built with modern front-end technologies including <strong>Tailwind CSS</strong>, <strong>React.js</strong>, and custom animations.
 </p>
 
-<p align="center">
-  <a href="https://your-live-demo-link.com" target="_blank">
-    🔗 <strong>Live Demo</strong>
-  </a>
-</p>
+
 
 ---
 
