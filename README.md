@@ -1,61 +1,64 @@
-<h1 align="center"> Front-End Portfolio Website</h1>
+<div align="center">
 
-<p align="center">
-  A high-performance, responsive portfolio built with a modern full-stack ecosystem. This project showcases seamless UI/UX design integrated with robust back-end solutions.
-</p>
+<img src="https://capsule-render.vercel.app/render?type=glitch&color=000000&height=180&section=header&text=Full--Stack%20Engineer&fontSize=45&fontAlignY=50" width="100%" />
+
+<br />
+
+[![Framework](https://img.shields.io/badge/Architecture-MVC%20%7C%20Microservices-blue.svg?style=flat-square)](#)
+[![Stack](https://img.shields.io/badge/Stack-PERN%20%2F%20LEMP-black.svg?style=flat-square)](#)
+[![Version](https://img.shields.io/badge/Build-Production--Ready-brightgreen.svg?style=flat-square)](#)
+
+</div>
 
 ---
 
-##  Tech Stack
+### <img src="https://cdn-icons-png.flaticon.com/512/1055/1055685.png" width="25" /> Technical Specification
 
-### Frontend & Styling
+#### Frontend Architecture
 <p align="left">
   <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white" />
   <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
-  <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" />
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
   <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" />
+  <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" />
+  <img src="https://img.shields.io/badge/Typed.js-FF69B4?style=for-the-badge&logo=javascript&logoColor=white" />
 </p>
 
-### Backend & Databases
+#### Backend Infrastructure
 <p align="left">
   <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" />
   <img src="https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white" />
   <img src="https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white" />
   <img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white" />
+</p>
+
+#### Data Management
+<p align="left">
   <img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white" />
   <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" />
 </p>
 
 ---
 
-##  Key Features
+### <img src="https://cdn-icons-png.flaticon.com/512/702/702111.png" width="25" /> Core Capabilities
 
-* **Server-Side Rendering:** Optimized performance and SEO using **Next.js**.
-* **Dynamic Theming:** Seamless switching between **Light & Dark** modes.
-* **Modern Animations:** Smooth transitions powered by **AOS** and **Framer Motion**.
-* **Full-Stack Ready:** Integrated API support with **Node/Express** and **Laravel**.
-* **Responsive Design:** Fully fluid layouts tailored for all screen sizes via **Tailwind CSS**.
-* **Type Safety:** Robust codebase using **TypeScript** for better maintainability.
+* **Performance Optimization:** Implemented Server-Side Rendering (SSR) for minimal Time to Interactive (TTI).
+* **State Management:** Utilizing advanced hooks and context providers for modular data flow.
+* **Database Design:** Skilled in relational schema design (MySQL) and document-based structures (MongoDB).
+* **Styling & Motion:** Expert use of Tailwind CSS combined with AOS and Typed.js for high-end interactivity.
 
 ---
 
-##  Installation & Setup
-
-Follow these steps to get the project running locally:
+### <img src="https://cdn-icons-png.flaticon.com/512/2906/2906274.png" width="25" /> Development Workflow
 
 ```bash
-# 1. Clone the repository
-git clone [https://github.com/yourusername/your-project.git](https://github.com/yourusername/your-project.git)
+# Clone the repository logic
+git clone [https://github.com/yourusername/project.git](https://github.com/yourusername/project.git)
 
-# 2. Navigate into the project directory
-cd your-project
+# Install dependencies for both Frontend and Backend
+npm install && composer install
 
-# 3. Install dependencies
-npm install
-
-# 4. Configure Environment Variables
+# Initialize environment configuration
 cp .env.example .env
 
-# 5. Start the development server
+# Run development environment
 npm run dev
