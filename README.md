@@ -1,64 +1,55 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/render?type=glitch&color=000000&height=180&section=header&text=Full--Stack%20Engineer&fontSize=45&fontAlignY=50" width="100%" />
+# FULL-STACK SOFTWARE ENGINEER
+### REPOSITORY ARCHITECTURE & PORTFOLIO
 
-<br />
+---
 
-[![Framework](https://img.shields.io/badge/Architecture-MVC%20%7C%20Microservices-blue.svg?style=flat-square)](#)
-[![Stack](https://img.shields.io/badge/Stack-PERN%20%2F%20LEMP-black.svg?style=flat-square)](#)
-[![Version](https://img.shields.io/badge/Build-Production--Ready-brightgreen.svg?style=flat-square)](#)
+`React.js` • `Next.js` • `TypeScript` • `Node.js` • `Laravel` • `MySQL` • `MongoDB`
+
+---
 
 </div>
 
----
+### ⑄ SYSTEM ARCHITECTURE
 
-### <img src="https://cdn-icons-png.flaticon.com/512/1055/1055685.png" width="25" /> Technical Specification
-
-#### Frontend Architecture
-<p align="left">
-  <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white" />
-  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
-  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" />
-  <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" />
-  <img src="https://img.shields.io/badge/Typed.js-FF69B4?style=for-the-badge&logo=javascript&logoColor=white" />
-</p>
-
-#### Backend Infrastructure
-<p align="left">
-  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" />
-  <img src="https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white" />
-  <img src="https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white" />
-  <img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white" />
-</p>
-
-#### Data Management
-<p align="left">
-  <img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white" />
-  <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" />
-</p>
+| Layer | Stack | Technical Implementation |
+| :--- | :--- | :--- |
+| **Frontend** | Next.js 14 | Hybrid Rendering (SSR/Static), Advanced Type-Safety |
+| **Styling** | Tailwind CSS | JIT Engine, Design Tokens, Responsive Grid |
+| **Backend** | Node / Laravel | RESTful API Design, Middleware Security, MVC |
+| **Database** | SQL / NoSQL | Relational Schema Design & Document Aggregation |
 
 ---
 
-### <img src="https://cdn-icons-png.flaticon.com/512/702/702111.png" width="25" /> Core Capabilities
+### ⑇ ENGINEERING STANDARDS
 
-* **Performance Optimization:** Implemented Server-Side Rendering (SSR) for minimal Time to Interactive (TTI).
-* **State Management:** Utilizing advanced hooks and context providers for modular data flow.
-* **Database Design:** Skilled in relational schema design (MySQL) and document-based structures (MongoDB).
-* **Styling & Motion:** Expert use of Tailwind CSS combined with AOS and Typed.js for high-end interactivity.
+* **Interactive UI:** Seamless animations using **Typed.js**, **AOS**, and **Animate.css**.
+* **Performance:** Code splitting, lazy loading, and asset optimization.
+* **Scalability:** Modular component structure and clean architecture principles.
+* **Data Integrity:** Robust validation layers with TypeScript and Laravel Eloquent.
 
 ---
 
-### <img src="https://cdn-icons-png.flaticon.com/512/2906/2906274.png" width="25" /> Development Workflow
+### ⑈ CORE TECHNOLOGIES
 
-```bash
-# Clone the repository logic
-git clone [https://github.com/yourusername/project.git](https://github.com/yourusername/project.git)
+<p align="left">
+  <img src="https://skillicons.dev/icons?i=nextjs,react,ts,tailwind,nodejs,express,laravel,php,mongodb,mysql&perline=5" />
+</p>
 
-# Install dependencies for both Frontend and Backend
+---
+
+### ⑉ PROJECT SETUP
+
+```zsh
+# Step 1: Clone the environment
+git clone [https://github.com/yourusername/project-name.git](https://github.com/yourusername/project-name.git)
+
+# Step 2: Dependency Synchronization
 npm install && composer install
 
-# Initialize environment configuration
+# Step 3: Environment Configuration
 cp .env.example .env
 
-# Run development environment
+# Step 4: Execution
 npm run dev
