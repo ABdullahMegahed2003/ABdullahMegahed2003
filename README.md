@@ -1,55 +1,31 @@
 <div align="center">
 
-# FULL-STACK SOFTWARE ENGINEER
-### REPOSITORY ARCHITECTURE & PORTFOLIO
+<h1>Full-Stack Software Engineer</h1>
+<p><strong>Modern Repository Architecture & Portfolio</strong></p>
 
----
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&pause=1000&color=00C2FF&center=true&vCenter=true&width=600&lines=Scalable+Web+Applications;Clean+Architecture;React+%7C+Next+%7C+Node+%7C+Laravel" />
 
-`React.js` • `Next.js` • `TypeScript` • `Node.js` • `Laravel` • `MySQL` • `MongoDB`
+<br/>
 
----
+<img src="https://img.shields.io/badge/Frontend-Next.js-black?style=flat-square&logo=next.js" />
+<img src="https://img.shields.io/badge/React-TypeScript-blue?style=flat-square&logo=react" />
+<img src="https://img.shields.io/badge/Backend-Node.js-green?style=flat-square&logo=node.js" />
+<img src="https://img.shields.io/badge/API-Laravel-red?style=flat-square&logo=laravel" />
+<img src="https://img.shields.io/badge/Database-MySQL%20%7C%20MongoDB-orange?style=flat-square" />
 
 </div>
 
-### ⑄ SYSTEM ARCHITECTURE
-
-| Layer | Stack | Technical Implementation |
-| :--- | :--- | :--- |
-| **Frontend** | Next.js 14 | Hybrid Rendering (SSR/Static), Advanced Type-Safety |
-| **Styling** | Tailwind CSS | JIT Engine, Design Tokens, Responsive Grid |
-| **Backend** | Node / Laravel | RESTful API Design, Middleware Security, MVC |
-| **Database** | SQL / NoSQL | Relational Schema Design & Document Aggregation |
-
 ---
 
-### ⑇ ENGINEERING STANDARDS
+## System Architecture
 
-* **Interactive UI:** Seamless animations using **Typed.js**, **AOS**, and **Animate.css**.
-* **Performance:** Code splitting, lazy loading, and asset optimization.
-* **Scalability:** Modular component structure and clean architecture principles.
-* **Data Integrity:** Robust validation layers with TypeScript and Laravel Eloquent.
+<div align="center">
 
----
-
-### ⑈ CORE TECHNOLOGIES
-
-<p align="left">
-  <img src="https://skillicons.dev/icons?i=nextjs,react,ts,tailwind,nodejs,express,laravel,php,mongodb,mysql&perline=5" />
-</p>
-
----
-
-### ⑉ PROJECT SETUP
-
-```zsh
-# Step 1: Clone the environment
-git clone [https://github.com/yourusername/project-name.git](https://github.com/yourusername/project-name.git)
-
-# Step 2: Dependency Synchronization
-npm install && composer install
-
-# Step 3: Environment Configuration
-cp .env.example .env
-
-# Step 4: Execution
-npm run dev
+```mermaid
+graph TD
+A[Client - Browser] --> B[Next.js Frontend]
+B --> C[API Layer]
+C --> D[Node.js / Laravel]
+D --> E[(Database)]
+E --> F[MySQL]
+E --> G[MongoDB]
