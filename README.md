@@ -11,8 +11,8 @@
 
 ## Overview
 
-Full-stack engineer focused on building reliable, scalable, and maintainable systems.  
-Strong foundation in system design, API architecture, and performance optimization.
+Full-stack engineer focused on building scalable, maintainable, and high-performance applications.  
+Experienced in designing structured architectures, building secure APIs, and optimizing system performance.
 
 ---
 
